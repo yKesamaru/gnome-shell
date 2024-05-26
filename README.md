@@ -11,7 +11,7 @@
 ```bash
 inxi -S; gnome-shell --version
 System:
-  Host: terms Kernel: 6.5.0-35-generic x86_64 bits: 64 Desktop: Unity
+  Host: **user** Kernel: 6.5.0-35-generic x86_64 bits: 64 Desktop: Unity
     Distro: Ubuntu 22.04.4 LTS (Jammy Jellyfish)
 GNOME Shell 42.9
 ```
