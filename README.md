@@ -1,11 +1,11 @@
 # `GNOME Shell`がメモリーリークしてるかも知れない
 
-![eyecatch](assets/eye-catch.png)
+![eyecatch](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/eye-catch.png)
 ## はじめに
 わたしのシステムでは時間が経過するごとに`gnome-shell`のメモリ使用量が増大します。
 このため`Alt+F2`でポップアップするコマンドダイアログに`r`と入力することで`gnome-shell`を再起動させます。
 この再起動ではセッションが維持されるため、セッションが初期化されてしまうログアウトやシステムの再起動より使い勝手が良いです。
-![](assets/2024-05-25-20-00-36.png)
+![](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/2024-05-25-20-00-36.png)
 
 ### 補足：他のシステムコマンド
 `r`の他のシステムコマンドを載せておきます。
@@ -28,9 +28,9 @@
   - 仮想端末でやったほうが良くない？
 
 - メモリ開放前: 617MB
-![メモリ開放前](assets/2024-05-25-20-06-05.png)
+![メモリ開放前](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/2024-05-25-20-06-05.png)
 - メモリ開放後:384MB
-![メモリ開放後](assets/2024-05-25-20-07-13.png)
+![メモリ開放後](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/2024-05-25-20-07-13.png)
 
 さて、簡単お気軽にメモリの開放ができるとはいえ、システムとしてはよろしくない状態です。
 とはいえ、この問題にあまり時間をかけたくありません。
