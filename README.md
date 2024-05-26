@@ -1,11 +1,20 @@
 # `GNOME Shell`がメモリーリークしてるかも知れない
 
-![eyecatch](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/eye-catch.png)
+![](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/eye-catch.png)
 ## はじめに
 わたしのシステムでは時間が経過するごとに`gnome-shell`のメモリ使用量が増大します。
 このため`Alt+F2`でポップアップするコマンドダイアログに`r`と入力することで`gnome-shell`を再起動させます。
 この再起動ではセッションが維持されるため、セッションが初期化されてしまうログアウトやシステムの再起動より使い勝手が良いです。
 ![](https://raw.githubusercontent.com/yKesamaru/gnome-shell/main/assets/2024-05-25-20-00-36.png)
+
+## 環境
+```bash
+inxi -S; gnome-shell --version
+System:
+  Host: terms Kernel: 6.5.0-35-generic x86_64 bits: 64 Desktop: Unity
+    Distro: Ubuntu 22.04.4 LTS (Jammy Jellyfish)
+GNOME Shell 42.9
+```
 
 ### 補足：他のシステムコマンド
 `r`の他のシステムコマンドを載せておきます。
